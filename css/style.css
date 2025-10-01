@@ -864,6 +864,57 @@ footer .container{
         display: block;
     }
 }
-@media screen and (max-width: 768px) {
-   
+@media screen and (max-width: 480px) {
+   .section2-row1 {
+    flex-direction: column;
+   }
+   .section2-txtbox {
+    width: 390px;
+    height: auto;
+   }
+   .section2-txtbox .h1{
+    font-size: 30px;
+    letter-spacing: 1px;
+   }
+   .section2-row2 {
+    display: none;
+   }
+   .section2-right {
+    width: 768px;
+    height: 400px;
+}
+    .section3-left {
+        width: 100%;
+        height: 700px;
+    }
+    .section3-right>ul{
+        display: none;
+    }
+    .section4TextWrap .section4BotWrap .section4ButtonWrap a{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 8px;
+    font-weight: bold;
+}
+.section4TextWrap h2 {
+        font-size: 20px;
+    }
+    .contentBox >div>div>div>p {
+    font-size: 15px;
+}
+.section5 .section5Margin{
+    display: none;
+}
+.section7 .section7_left .h1{
+    font-size: 20px;
+}
+.section1-right{
+    display: none;
+}
+.section1-left{
+    display: none;
+}
 }
